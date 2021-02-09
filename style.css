@@ -1,8 +1,23 @@
+html {
+  font-size: 18px;
+}
+
 body {
   margin: 0;
-  font-size: 18px;
+  font-size: 1rem;
   font-family: "Lato", sans-serif;
   color: #2e354f;
+}
+
+.section-one {
+  /* font-size: 20px; */
+}
+ul {
+  font-size: 1rem;
+}
+
+img {
+  width: 100%;
 }
 
 h1,
@@ -13,12 +28,12 @@ strong {
 
 /* Typography */
 h1 {
-  font-size: 36 px;
+  font-size: 3rem;
   margin: 0;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 3rem;
   color: #ef5839;
 }
 
@@ -30,6 +45,8 @@ a:hover,
 a:focus {
   color: #d4b44c;
 }
+
+/* Buttons */
 
 .btn {
   display: inline-block;
@@ -45,6 +62,7 @@ a:focus {
 .btn-accent:hover {
   color: #2e354f;
   background: #d4b44c;
+  /* transform: scale(0.7); */
 }
 
 .btn-white {
@@ -55,6 +73,7 @@ a:focus {
 .btn-white:hover {
   color: #2e354f;
   background: #999;
+  transform: scale(0.98);
 }
 
 /* Layout */
@@ -70,9 +89,10 @@ section {
 }
 
 .container {
-  width: 50%;
+  width: 90%;
+  max-width: 620px;
   margin: 0 auto;
-  border: 2px solid magenta;
+  /* border: 2px solid magenta; */
 }
 
 .section-two {
