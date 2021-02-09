@@ -1,0 +1,27 @@
+.btn-white:hover {
+  color: #2e354f;
+  background: #999;
+}
+
+/* Layout */
+
+header {
+  background: #2e354f;
+  padding: 45px 0;
+  color: #fff;
+}
+
+section {
+  padding: 45px 0;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+  border: 2px solid magenta;
+}
+
+.section-two {
+  background: #2e354f;
+  color: #fff;
+}
