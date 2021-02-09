@@ -1,3 +1,57 @@
+body {
+  margin: 0;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  color: #2e354f;
+}
+
+h1,
+h2,
+strong {
+  font-weight: 900;
+}
+
+/* Typography */
+h1 {
+  font-size: 36 px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 24px;
+  color: #ef5839;
+}
+
+a {
+  color: #ef5839;
+}
+
+a:hover,
+a:focus {
+  color: #d4b44c;
+}
+
+.btn {
+  display: inline-block;
+  padding: 18px 25px;
+  text-decoration: none;
+}
+
+.btn-accent {
+  color: #ef5839;
+  color: #fff;
+}
+
+.btn-accent:hover {
+  color: #2e354f;
+  background: #d4b44c;
+}
+
+.btn-white {
+  background: #fff;
+  color: #2e354f;
+}
+
 .btn-white:hover {
   color: #2e354f;
   background: #999;
