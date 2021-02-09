@@ -27,6 +27,11 @@ p {
 
 img {
   max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* width: 100%; */
 }
 .container {
   max-width: 980px;
@@ -36,7 +41,21 @@ img {
 
 .columns {
   display: flex;
+  justify-content: space-between;
+  align-items: start;
   margin: 1em 0;
+}
+
+.inner_columns-1 {
+  width: 20%;
+}
+
+.inner_columns-2 {
+  width: 45%;
+}
+
+.inner_columns-3 {
+  width: 70%;
 }
 
 .column-background {
