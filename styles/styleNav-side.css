@@ -30,13 +30,16 @@ header {
   background: #f8f8f8;
   padding: 2em 0;
   display: flex;
-  flex-direction: column;
+  border: 1px solid red;
+}
+.site-title {
+  border: 1px solid magenta;
 }
 
 /* Navigation */
 
 nav ul {
-  /* border: 1px solid magenta; */
+  border: 1px solid magenta;
 
   list-style: none;
   display: flex;
@@ -47,13 +50,13 @@ nav ul {
 }
 
 nav li {
-  /* border: 2px solid orange; */
+  border: 2px solid orange;
 
   margin: 0 1em;
 }
 
 nav a {
-  /* border: 3px solid green; */
+  border: 3px solid green;
   text-decoration: none;
   color: #707070;
   font-weight: 700;
