@@ -29,7 +29,6 @@ header {
   text-align: center;
   background: #f8f8f8;
   padding: 2em 0;
-  display: flex;
   border: 1px solid red;
 }
 .site-title {
