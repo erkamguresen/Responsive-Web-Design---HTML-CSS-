@@ -1,0 +1,77 @@
+/*  */
+body {
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+/* ****************************************************************
+Typography
+**************************************************************** */
+h1 {
+  font-family: "Lora", serif;
+  font-weight: 400;
+  color: #143774;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.subtitle {
+  font-weight: 700;
+  color: #1792d2;
+  font-size: 0.75rem;
+  margin: 0;
+}
+
+/* ****************************************************************
+Layout
+**************************************************************** */
+
+header {
+  text-align: center;
+  background: #f8f8f8;
+  padding: 2em 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navigation */
+
+nav ul {
+  /* border: 1px solid magenta; */
+
+  list-style: none;
+  display: flex;
+
+  padding: 0;
+
+  justify-content: center;
+}
+
+nav li {
+  /* border: 2px solid orange; */
+
+  margin: 0 1em;
+}
+
+nav a {
+  /* border: 3px solid green; */
+  text-decoration: none;
+  color: #707070;
+  font-weight: 700;
+  padding: 0.25em 0;
+}
+
+nav a:hover,
+nav a:focus {
+  color: #1792d2;
+  border-bottom: 2px solid #1792d2;
+}
+
+.current-page {
+  border-bottom: 2px solid #707070;
+}
+
+.current-page:hover,
+.current-page:focus {
+  color: #707070;
+  border-bottom: 2px solid #707070;
+}
