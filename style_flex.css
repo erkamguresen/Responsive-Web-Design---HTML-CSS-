@@ -65,7 +65,7 @@ img {
   padding: 1em;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 720px) {
   .columns {
     flex-direction: column;
   }
