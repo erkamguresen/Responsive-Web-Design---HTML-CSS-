@@ -24,6 +24,17 @@ h1 {
 /* ****************************************************************
 Layout
 **************************************************************** */
+.container {
+  width: 90%;
+  max-width: 900px;
+  border: 1px solid magenta;
+  margin: 0 auto;
+}
+
+.container-nav {
+  display: flex;
+  justify-content: space-between;
+}
 
 header {
   text-align: center;
@@ -38,7 +49,7 @@ header {
 /* Navigation */
 
 nav ul {
-  border: 1px solid magenta;
+  border: 1px solid orange;
 
   list-style: none;
   display: flex;
@@ -49,13 +60,13 @@ nav ul {
 }
 
 nav li {
-  border: 2px solid orange;
+  /* border: 2px solid orange; */
 
-  margin: 0 1em;
+  margin-left: 2em;
 }
 
 nav a {
-  border: 3px solid green;
+  /* border: 3px solid green; */
   text-decoration: none;
   color: #707070;
   font-weight: 700;
