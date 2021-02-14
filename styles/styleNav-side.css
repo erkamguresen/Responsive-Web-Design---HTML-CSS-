@@ -88,3 +88,18 @@ nav a:focus {
   color: #707070;
   border-bottom: 2px solid #707070;
 }
+
+/* Media Queries */
+@media (max-width: 675px) {
+  .container-nav {
+    flex-direction: column;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav li {
+    margin: 0.5em 0;
+  }
+}
