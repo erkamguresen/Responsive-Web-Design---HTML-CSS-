@@ -8,6 +8,7 @@ body {
   margin: 0;
   font-family: "Ubuntu", sans-serif;
   font-size: 1.125rem;
+  font-weight: 300;
 }
 /* ****************************************************************
 Typography
@@ -45,6 +46,14 @@ h1 {
 
 .article-read-more {
   color: var(--light-blue-color);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.article-read-more:hover,
+.article-read-more:focus {
+  color: var(--dark-blue-color);
+  text-decoration: underline;
 }
 
 /* ****************************************************************
