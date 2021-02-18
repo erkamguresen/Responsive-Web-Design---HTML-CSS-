@@ -4,14 +4,10 @@
   --dark-blue-color: #143774;
 }
 
-html {
-  font-size: 18px;
-}
-
-/*  */
 body {
   margin: 0;
   font-family: "Ubuntu", sans-serif;
+  font-size: 1.125rem;
 }
 /* ****************************************************************
 Typography
@@ -39,6 +35,16 @@ h1 {
 }
 
 .article-title {
+  font-size: 1.5rem;
+}
+
+.article-read-more,
+.article-info {
+  font-size: 0.875rem;
+}
+
+.article-read-more {
+  color: var(--light-blue-color);
 }
 
 /* ****************************************************************
