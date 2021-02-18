@@ -27,6 +27,19 @@ h1 {
   margin: 0;
 }
 
+a {
+  color: var(--light-blue-color);
+}
+
+a:hover,
+a:focus {
+  color: var(--dark-blue-color);
+}
+
+strong {
+  font-weight: 700;
+}
+
 /* h1 subtitle */
 .subtitle {
   font-weight: 700;
@@ -74,6 +87,10 @@ header {
   text-align: center;
   background: #f8f8f8;
   padding: 2em 0;
+}
+
+img {
+  width: 100%;
 }
 
 /* Navigation */
