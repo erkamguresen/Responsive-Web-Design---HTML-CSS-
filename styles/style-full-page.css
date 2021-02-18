@@ -18,7 +18,7 @@ h2,
 h3 {
   font-family: "Lora", serif;
   font-weight: 400;
-  color: var(light-blue-color);
+  color: var(--light-blue-color);
 }
 
 h1 {
@@ -30,8 +30,8 @@ h1 {
 /* h1 subtitle */
 .subtitle {
   font-weight: 700;
-
   font-size: 0.75rem;
+  color: var(--light-blue-color);
   margin: 0;
 }
 
@@ -77,15 +77,10 @@ header {
   padding: 2em 0;
   /* border: 1px solid red; */
 }
-.site-title {
-  /* border: 1px solid magenta; */
-}
 
 /* Navigation */
-
+/* 
 nav ul {
-  /* border: 1px solid orange; */
-
   list-style: none;
   display: flex;
 
@@ -95,13 +90,11 @@ nav ul {
 }
 
 nav li {
-  /* border: 2px solid orange; */
-
   margin-left: 2em;
 }
 
 nav a {
-  /* border: 3px solid green; */
+
   text-decoration: none;
   color: #707070;
   font-weight: 700;
@@ -122,9 +115,10 @@ nav a:focus {
 .current-page:focus {
   color: #707070;
   border-bottom: 2px solid #707070;
-}
+} */
 
 /* Media Queries */
+/* 
 @media (max-width: 675px) {
   .container-nav {
     flex-direction: column;
@@ -137,4 +131,4 @@ nav a:focus {
   nav li {
     margin: 0.5em 0;
   }
-}
+} */
