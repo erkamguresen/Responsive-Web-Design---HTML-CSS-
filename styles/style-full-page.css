@@ -159,22 +159,17 @@ nav a:focus {
 .article-recent-main {
   order: 2;
   margin-top: -3em;
+  border: 2px solid green;
 }
 
 .article-recent-secondary {
   order: 1;
+  border: 2px solid yellowgreen;
 }
-
+.article-info {
+  text-align: right;
+}
 /* Media Queries */
-
-@media (min-width: 600px) {
-  .article-recent-main {
-    margin-top: 0;
-  }
-  .article-info {
-    text-align: right;
-  }
-}
 
 @media (min-width: 675px) {
   .article-recent {
@@ -186,11 +181,14 @@ nav a:focus {
   .article-recent-main {
     width: 68%;
     border: 2px solid green;
+    margin-top: 0;
   }
+
   .article-recent-secondary {
     width: 30%;
     border: 2px solid yellowgreen;
   }
+
   .container-flex {
     flex-direction: row;
   }
