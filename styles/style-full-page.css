@@ -96,14 +96,6 @@ header {
   padding: 2em 0;
 }
 
-main {
-  width: 75%;
-}
-
-aside {
-  width: 20%;
-}
-
 /* Navigation */
 
 nav ul {
@@ -146,5 +138,16 @@ nav a:focus {
 
 /* Media Queries */
 
-@media (max-width: 675px) {
+@media (min-width: 675px) {
+  .container-flex {
+    flex-direction: row;
+  }
+
+  main {
+    width: 75%;
+  }
+
+  aside {
+    width: 20%;
+  }
 }
