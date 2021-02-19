@@ -25,6 +25,7 @@ h3 {
   font-family: "Lora", serif;
   font-weight: 400;
   color: var(--light-blue-color);
+  margin-top: 0;
 }
 
 h1 {
@@ -149,7 +150,30 @@ nav a:focus {
   margin-bottom: 2em;
 }
 
+.article-recent {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2em;
+}
+
+.article-recent-main {
+  order: 2;
+}
+
+.article-recent-secondary {
+  order: 1;
+}
+
 /* Media Queries */
+
+@media (min-width: 600px) {
+  .article-recent-main {
+    margin-top: -3em;
+  }
+  .article-info {
+    text-align: right;
+  }
+}
 
 @media (min-width: 675px) {
   .container-flex {
