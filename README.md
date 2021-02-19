@@ -19,8 +19,9 @@ This is a youtube tutorial from FreeCodeCamp.org
 
 ## Current Progress In The Tutorial
 
-![progress](https://img.shields.io/badge/Progress-03.36.00%20|%2004.11.03-yellow)
+![progress](https://img.shields.io/badge/Progress-03.40.00%20|%2004.11.03-yellow)
 
 ## Personal Changes
 
 - Design change between les 36 and les 37 is corrected (suddenly articles becomes 2 column and negative margin needs to be fixed in CSS)
+- media query break point changed to 796px in full page tutorial
