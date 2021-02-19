@@ -113,6 +113,13 @@ header {
   margin-bottom: 3em;
 }
 
+footer {
+  background: var(--dark-blue-color);
+  color: white;
+  text-align: center;
+  padding: 3em 0;
+}
+
 /* Navigation */
 
 nav ul {
