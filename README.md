@@ -17,8 +17,10 @@ This is a youtube tutorial from FreeCodeCamp.org
 
 <!-- - Current progress in tutorial : **Finished** -->
 
-## Current progress in the tutorial
+## Current Progress In The Tutorial
 
-![current position](https://img.shields.io/badge/finished%20lenght-03.24.00-blue)
+![progress](https://img.shields.io/badge/Progress-03.24.00%20|%2004.11.03-yellow)
 
-![total length](https://img.shields.io/badge/total%20video%20lenght-04.11.03-red)
+## Personal Changes
+
+- Design change between les 36 and les 37 is corrected (suddenly articles becomes 2 colomns and negative margin needs to be fixed in CSS)
