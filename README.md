@@ -23,4 +23,4 @@ This is a youtube tutorial from FreeCodeCamp.org
 
 ## Personal Changes
 
-- Design change between les 36 and les 37 is corrected (suddenly articles becomes 2 colomns and negative margin needs to be fixed in CSS)
+- Design change between les 36 and les 37 is corrected (suddenly articles becomes 2 column and negative margin needs to be fixed in CSS)
