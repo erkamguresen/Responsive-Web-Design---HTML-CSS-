@@ -10,6 +10,12 @@ body {
   font-size: 1.125rem;
   font-weight: 300;
 }
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
 /* ****************************************************************
 Typography
 **************************************************************** */
@@ -89,8 +95,12 @@ header {
   padding: 2em 0;
 }
 
-img {
-  width: 100%;
+main {
+  width: 75%;
+}
+
+aside {
+  width: 20%;
 }
 
 /* Navigation */
@@ -134,7 +144,7 @@ nav a:focus {
 /* Media Queries */
 
 @media (max-width: 675px) {
-  .container-nav {
+  .container-flex {
     flex-direction: column;
   }
 

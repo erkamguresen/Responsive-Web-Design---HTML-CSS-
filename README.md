@@ -19,6 +19,6 @@ This is a youtube tutorial from FreeCodeCamp.org
 
 ## Current progress in the tutorial
 
-![current position](https://img.shields.io/badge/finished%20lenght-02.56.10-blue)
+![current position](https://img.shields.io/badge/finished%20lenght-03.01.00-blue)
 
 ![total length](https://img.shields.io/badge/total%20video%20lenght-04.11.03-red)
