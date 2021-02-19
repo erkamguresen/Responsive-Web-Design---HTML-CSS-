@@ -87,6 +87,7 @@ Layout
 .container-flex {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
 }
 
 header {
@@ -112,10 +113,12 @@ nav ul {
   padding: 0;
 
   justify-content: center;
+  flex-direction: column;
 }
 
 nav li {
-  margin-left: 2em;
+  /* margin-left: 2em; */
+  margin: 0.5em 0;
 }
 
 nav a {
@@ -144,15 +147,4 @@ nav a:focus {
 /* Media Queries */
 
 @media (max-width: 675px) {
-  .container-flex {
-    flex-direction: column;
-  }
-
-  nav ul {
-    flex-direction: column;
-  }
-
-  nav li {
-    margin: 0.5em 0;
-  }
 }
