@@ -23,6 +23,7 @@ This is a youtube tutorial from FreeCodeCamp.org
 
 ## Personal Changes
 
+- An index page with link to all different pages is created.
 - Design change between les 36 and les 37 is corrected (suddenly articles becomes 2 column and negative margin needs to be fixed in CSS)
 - media query break point changed to 796px in full page tutorial
 - copyright part is updated

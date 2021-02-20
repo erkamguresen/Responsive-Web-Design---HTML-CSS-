@@ -31,6 +31,16 @@ header {
   padding: 2em 0;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+.inner-box {
+  border: 2px solid #1792d2;
+}
+
 /* Navigation */
 
 nav ul {
@@ -72,4 +82,13 @@ nav a:focus {
 .current-page:focus {
   color: #707070;
   border-bottom: 2px solid #707070;
+}
+
+@media (max-width: 700px) {
+  nav ul {
+    flex-direction: column;
+  }
+  nav li {
+    margin: 1em;
+  }
 }
