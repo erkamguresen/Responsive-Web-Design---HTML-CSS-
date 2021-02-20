@@ -177,12 +177,12 @@ nav a:focus {
 .article-recent-main {
   order: 2;
   margin-top: -3em;
-  border: 2px solid green;
+  /* border: 2px solid green; */
 }
 
 .article-recent-secondary {
   order: 1;
-  border: 2px solid yellowgreen;
+  /* border: 2px solid yellowgreen; */
 }
 
 .article-info {
@@ -218,18 +218,18 @@ nav a:focus {
   .article-recent {
     flex-direction: row;
     justify-content: space-between;
-    border: 2px solid red;
+    /* border: 2px solid red; */
   }
 
   .article-recent-main {
     width: 70%;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     margin-top: 0;
   }
 
   .article-recent-secondary {
     width: 25%;
-    border: 2px solid yellowgreen;
+    /* border: 2px solid yellowgreen; */
   }
 
   .container-flex {
